@@ -89,7 +89,7 @@ function startGame() {
     answerNumberString = answerNumber;
   }
 
-  if (answerNumberString.length > 20) {
+  if (answerNumberString.length >= 20) {
     answerNumberString = answerNumber;
   } else {
     answerNumberString = answerNumberString;
@@ -151,7 +151,7 @@ document.querySelector("#btnOver").addEventListener("click", function () {
         answerNumberString = answerNumber;
       }
 
-      if (answerNumberString.length > 20) {
+      if (answerNumberString.length >= 20) {
         answerNumberString = answerNumber;
       } else {
         answerNumberString = answerNumberString;
@@ -206,7 +206,7 @@ document.querySelector("#btnLess").addEventListener("click", function () {
         answerNumberString = answerNumber;
       }
 
-      if (answerNumberString.length > 20) {
+      if (answerNumberString.length >= 20) {
         answerNumberString = answerNumber;
       } else {
         answerNumberString = answerNumberString;
